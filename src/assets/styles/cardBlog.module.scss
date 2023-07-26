@@ -1,0 +1,45 @@
+.cardItem{
+  background-color: initial;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 4px 25px 0px #0000001A;
+  border-radius: 20px;
+  margin-bottom: 30px;
+
+  &:hover{
+   cursor: pointer;
+  }
+
+  .image{
+    padding: 16px 16px 0 16px;
+    height: 210px;
+    width: 100%;
+  }
+
+  .title{
+    font-size: 20px;
+    line-height: 23.44px;
+    font-weight: 500;
+    font-family: "Roboto-Medium";
+    color: #000000;
+  }
+  .description{
+    font-size: 18px;
+    line-height: 24.75px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #ACACAC;
+  }
+  .date{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #FF7426;
+  }
+}
+@media (min-width: 701px) and (max-width: 1120px) {
+  .image{
+    height: 190px !important;
+  }
+}

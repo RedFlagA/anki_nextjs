@@ -1,0 +1,179 @@
+$primary-color: #3cc5ff;
+$white-color: #fff;
+
+.bg_footer {
+  background-color: $primary-color;
+}
+
+footer {
+  .logo_title {
+    color: $white-color;
+    font-size: 50px;
+    padding-left: 20px;
+    font-family: "Vibur", sans-serif;
+  }
+
+  .icon_store {
+    color: $white-color;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  .btn_change_style {
+    width: 155px;
+    padding: 0 10px !important;
+    margin: 0 !important;
+  }
+
+  .margin_right {
+    margin-right: 10px !important;
+  }
+
+  .text_store {
+    font-size: 17px;
+  }
+
+  .text_download {
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .template_demo {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .get_app {
+    color: $white-color;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+
+  .follow_us {
+    color: $white-color;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+
+  .sharer {
+    width: 40px;
+    height: 40px;
+    background-color: $white-color;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  .social a {
+    color: #46178f;
+    font-size: 20px;
+  }
+
+  .copyright {
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .padding_bottom {
+    padding: 50px 0;
+  }
+
+  .title_margin {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: "Montserrat-Bold";
+    color: $white-color;
+  }
+
+  .content_footer_margin {
+    margin-top: 30px;
+  }
+
+  .item_margin {
+    margin-bottom: 15px;
+  }
+
+  .item_margin,
+  .item_margin a {
+    font-size: 15px;
+    line-height: 35px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    color: $white-color;
+  }
+
+  @media (max-width: 700px) {
+    .logo {
+      justify-content: center;
+    }
+
+    .template_demo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+
+    .view_download {
+      margin: 0;
+    }
+
+    .padding_bottom {
+      padding: 30px 0;
+    }
+
+    .mobile_center {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sharer {
+      margin: 0 15px;
+    }
+
+    .copyright {
+      padding-top: 35px;
+    }
+
+    .content_footer_margin {
+      margin-top: 10px;
+    }
+
+    .item_margin {
+      margin-bottom: 0px;
+    }
+
+    .item-margin,
+    .item_margin a {
+      font-size: 14px;
+    }
+
+    .title_margin {
+      font-size: 17px;
+    }
+  }
+}
+@media (min-width: 701px) and (max-width: 1120px) {
+  footer {
+    .btn_change_style {
+      width: 140px;
+      padding: 0 5px !important;
+    }
+    .text_store {
+      font-size: 16px;
+    }
+    .style_devices{
+     margin-top: 10px !important;
+    }
+    .get_app, .follow_us{
+      text-align: start;
+    }
+  }
+}

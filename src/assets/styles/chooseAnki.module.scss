@@ -1,0 +1,38 @@
+.image{
+  width: 90%;
+}
+.title{
+  font-size: 36px;
+  color: '#2F281E';
+  font-weight: 800;
+  line-height: 44px;
+  font-family: 'Montserrat-Bold';
+}
+.description{
+  font-size: 28px;
+  color: '#544837';
+  font-weight: 500;
+  line-height: 40px;
+  font-family: 'Montserrat';
+  width: 75%;
+}
+.viewChooseAnki{
+  margin-bottom: 100px;
+}
+
+@media (max-width: 700px) {
+  .title{
+    font-size: 25px;
+  }
+  .description{
+    font-size: 20px;
+    width: 100%;
+  }
+  .viewChooseAnki{
+    margin-bottom: 25px;
+  }
+  .image{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
