@@ -1,6 +1,9 @@
 import { Container, Navbar, Nav, NavDropdown, Image } from "react-bootstrap";
+import {useLocale, useTranslations} from 'next-intl';
 import styles from '../assets/styles/header.module.scss'
 export default function Header() {
+  const locale = useLocale();
+  const t = useTranslations('Header');
   return (
       <Navbar bg="white" expand="lg">
         <Container>
@@ -19,21 +22,21 @@ export default function Header() {
           <Navbar.Collapse id="navbarResponsive">
             <Nav className="ms-auto">
               <Nav.Link href="/blogs" active className={styles.menu_title}>
-                Blogs
+                {t("blogs")}
               </Nav.Link>
-              <Nav.Link href="#" active className={styles.menu_title}>
-                Privacy
+              <Nav.Link href="/privacy" active className={styles.menu_title}>
+                {t("privacy_policy")}
               </Nav.Link>
               <NavDropdown
-                title="EN"
+                title={locale === 'vi' ? 'VN': 'EN'}
                 id="language-dropdown"
                 active
                 className={styles.menu_title}
               >
-                <NavDropdown.Item href="#" className={styles.menu_title}>
+                <NavDropdown.Item href="/en" className={styles.menu_title}>
                   EN
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" className={styles.menu_title}>
+                <NavDropdown.Item href="/vi" className={styles.menu_title}>
                   VN
                 </NavDropdown.Item>
               </NavDropdown>

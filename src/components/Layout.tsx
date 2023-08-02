@@ -1,4 +1,4 @@
-import Link from 'next/link';
+'use client'
 import Header from './Header';
 import Footer from './Footer';
 const Layout = ({ children}: any) => {
