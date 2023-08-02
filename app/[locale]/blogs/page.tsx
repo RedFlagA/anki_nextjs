@@ -10,7 +10,7 @@ export async function generateMetadata() {
     description: locale === 'en' ? `Summary of Anki's articles` : 'Tổng hợp các bài viết của Anki',
     openGraph: {
       images: {
-        url: '/images/BannerFlashcard.png',
+        url: 'https://wp.anki.edu.vn/wp-content/uploads/2023/07/cau-noi-tieng-Anh-hay-ve-tinh-ban-1079x675-1.jpg',
       },
     },
   }
