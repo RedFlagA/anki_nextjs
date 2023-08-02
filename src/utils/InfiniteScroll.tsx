@@ -14,12 +14,12 @@ export default function Items({ initialItems }: any) {
 
 
   useEffect(() => {
-    let newData: string | any[] = [];
+    let newData: any;
     const fetchData = async () => {
       try {
         setIsLoading(true);
         newData = await getDataBlogs(page, offset);
-        setData((prevData) => [...prevData, ...newData]);
+        setData((prevData: any) => [...prevData, ...newData]);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
@@ -34,7 +34,7 @@ export default function Items({ initialItems }: any) {
         newData.length > 0
       ) {
         // Load more data when the user reaches the bottom of the page
-        setOffset((prevOffset) => prevOffset + page);
+        setOffset((prevOffset: number) => prevOffset + page);
       }
     };
 
