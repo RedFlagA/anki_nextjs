@@ -15,6 +15,13 @@ export async function generateMetadata({
   return {
     title: data[0]?.title?.rendered,
     description: convert(data[0]?.excerpt?.rendered, options),
+    openGraph: {
+      images: {
+        title: data[0]?.title?.rendered,
+        description: convert(data[0]?.excerpt?.rendered, options),
+        url: data[0]?.better_featured_image?.source_url,
+      },
+    },
   };
 }
 export default async function BlogDetail({
