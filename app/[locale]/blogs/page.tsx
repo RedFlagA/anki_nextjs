@@ -8,6 +8,11 @@ export async function generateMetadata() {
   return {
     title: locale === 'en' ? 'Blogs' : 'Bài viết',
     description: locale === 'en' ? `Summary of Anki's articles` : 'Tổng hợp các bài viết của Anki',
+    openGraph: {
+      images: {
+        url: '/images/BannerFlashcard.png',
+      },
+    },
   }
 }
 
