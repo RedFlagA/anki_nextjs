@@ -10,7 +10,7 @@ export default function Header() {
           <Navbar.Brand href="/" className="d-flex">
             <div className="d-flex align-items-baseline">
               <Image
-                src="/image/logo.png"
+                src="/images/logo.png"
                 alt="My Image"
                 width={47}
                 height={50}

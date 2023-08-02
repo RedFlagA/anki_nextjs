@@ -66,7 +66,7 @@ export default async function Home() {
           </Col>
           <Col md={6} lg={6} xl={6} className={`text-end ${styles.box_banner}`}>
             <Image
-              src="/image/img_passed.png"
+              src="/images/img_passed.png"
               alt="Image passed"
               className={styles.image_passed}
             />
@@ -83,7 +83,7 @@ export default async function Home() {
             <Col md={6} lg={6} xl={3} className="mx-auto">
               <CardWhoIsAnki
                 backgroundImage="#3A5AFF"
-                image="/image/book.png"
+                image="/images/book.png"
                 title={t('at_school')}
                 description={t('des_at_school')}
               />
@@ -91,7 +91,7 @@ export default async function Home() {
             <Col md={6} lg={6} xl={3} className="mx-auto">
               <CardWhoIsAnki
                 backgroundImage="#FFC43B"
-                image="/image/vector.png"
+                image="/images/vector.png"
                 title={t('at_work')}
                 description={t('des_at_work')}
               />
@@ -99,7 +99,7 @@ export default async function Home() {
             <Col md={6} lg={6} xl={3} className="mx-auto">
               <CardWhoIsAnki
                 backgroundImage="#3CC5FF"
-                image="/image/sofa.png"
+                image="/images/sofa.png"
                 title={t('at_home')}
                 description={t('des_at_home')}
               />
@@ -107,7 +107,7 @@ export default async function Home() {
             <Col md={6} lg={6} xl={3} className="mx-auto">
               <CardWhoIsAnki
                 backgroundImage="#FF3B53"
-                image="/image/mobile.png"
+                image="/images/mobile.png"
                 title={t('learning_apps')}
                 description={t('des_learning_apps')}
               />
@@ -123,18 +123,18 @@ export default async function Home() {
           <div className={styles.line}></div>
           <div>
             <ChooseAnki
-              image="/image/banner1.png"
+              image="/images/banner1.png"
               title={t('title_why_is_anki_1')}
               description={t('des_why_is_anki_1')}
             />
             <ChooseAnki
               direction="rtl"
-              image="/image/banner2.png"
+              image="/images/banner2.png"
               title={t('title_why_is_anki_2')}
               description={t('des_why_is_anki_2')}
             />
             <ChooseAnki
-              image="/image/banner3.png"
+              image="/images/banner3.png"
               title={t('title_why_is_anki_3')}
               description={t('des_why_is_anki_3')}
             />

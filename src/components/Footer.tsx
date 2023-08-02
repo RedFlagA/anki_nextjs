@@ -15,7 +15,7 @@ function Footer() {
             <Col md={4} lg={4} xl={4} className="mx-auto">
               <div className={`d-flex align-items-baseline ${styles.logo}`}>
                 <Image
-                  src="/image/logo.png"
+                  src="/images/logo.png"
                   alt="My Image"
                   width={47}
                   height={50}

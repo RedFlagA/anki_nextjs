@@ -16,7 +16,7 @@ function Slider() {
               </div>
 
               <Image
-                src="/image/person.png"
+                src="/images/person.png"
                 alt="I love Anki!"
                 className={styles.image}
               />
@@ -39,7 +39,7 @@ function Slider() {
               </div>
 
               <Image
-                src="/image/person.png"
+                src="/images/person.png"
                 alt="I love Anki!"
                 className={styles.image}
               />
@@ -62,7 +62,7 @@ function Slider() {
               </div>
 
               <Image
-                src="/image/person.png"
+                src="/images/person.png"
                 alt="I love Anki!"
                 className={styles.image}
               />
