@@ -22,9 +22,19 @@ function Footer() {
                 />
                 <h2 className={`${styles.logo_title} mb-0`}>Anki</h2>
               </div>
-              <h5 className={styles.get_app}>{t("get_the_app")}</h5>
+
+              <p className={styles.item_margin}>
+                <a href="/privacy" className="text-white text-decoration-none">
+                  {t("privacy_policy")}
+                </a>
+              </p>
+            </Col>
+            <Col md={4} lg={4} xl={4} className="mx-auto">
+              <h5 className={`${styles.get_app} text-center`}>
+                {t("get_the_app")}
+              </h5>
               <div
-                className={`row container d-flex justify-content-center ${styles.view_download}`}
+                className={`d-flex justify-content-center ${styles.view_download}`}
               >
                 <div className={`${styles.template_demo} mt-2`}>
                   <button
@@ -48,9 +58,11 @@ function Footer() {
                     className={`${styles.btn_change_style} ${styles.margin_right} ${styles.style_devices} btn btn-dark btn-icon-text`}
                   >
                     <div className="d-flex align-items-center justify-content-center">
-                      <i
-                        className={`bi bi-google-play ${styles.icon_store}`}
-                      ></i>
+                      <Image
+                        src="/images/google-play.png"
+                        alt="Image passed"
+                        className={styles.icon_google_play}
+                      />
                       <span
                         className={`d-inline-block text-left ${styles.text_store}`}
                       >
@@ -65,144 +77,38 @@ function Footer() {
                   </button>
                 </div>
               </div>
-              <h5 className={styles.follow_us}>{t("follow_us")}</h5>
+            </Col>
+            <Col md={4} lg={4} xl={4} className="mx-auto">
+              <h5 className={`${styles.follow_us} text-end`}>
+                {t("follow_us")}
+              </h5>
 
               <div
-                className={`d-flex ${styles.social} ${styles.mobile_center}`}
+                className={`d-flex justify-content-end ${styles.social} ${styles.mobile_center}`}
               >
-                <a href="#">
-                  <div className={`${styles.sharer} button`}>
-                    <i className="bi bi-facebook"></i>
-                  </div>
-                </a>
-                <a href="#">
-                  <div className={`${styles.sharer} button`}>
-                    <i className="bi bi-twitter"></i>
-                  </div>
-                </a>
-                <a href="#">
-                  <div className={`${styles.sharer} button`}>
-                    <i className="bi bi-tiktok"></i>
-                  </div>
-                </a>
-              </div>
-              <p className={styles.copyright}>
-                Copyright @ 2023, Anki All rights reserved.
-              </p>
-            </Col>
-            <Col md={2} lg={2} xl={3} className="mx-auto">
-              <h6 className={`text-uppercase fw-bold ${styles.title_margin}`}>
-                {t("about")}
-              </h6>
-              <div className={styles.content_footer_margin}>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("company")}
+                <div className="mt-2 d-flex justify-content-end">
+                  <a href="#">
+                    <div className={`${styles.sharer} button`}>
+                      <i className="bi bi-facebook"></i>
+                    </div>
                   </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("leader_ship")}
+                  <a href="#">
+                    <div className={`${styles.sharer} button`}>
+                      <i className="bi bi-twitter"></i>
+                    </div>
                   </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("jobs_hiring")}
+                  <a href="#">
+                    <div className={`${styles.sharer} button`}>
+                      <i className="bi bi-tiktok"></i>
+                    </div>
                   </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("pricing")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("press")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("investors")}
-                  </a>
-                </p>
-              </div>
-            </Col>
-            <Col md={3} lg={2} xl={3} className="mx-auto">
-              <h6 className={`text-uppercase fw-bold ${styles.title_margin}`}>
-                {t("blogs")}
-              </h6>
-              <div className={styles.content_footer_margin}>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("study_with_kurtis")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("blog")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("kurtis_certified")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("help_center")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("library")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("shop")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("safety_center")}
-                  </a>
-                </p>
-              </div>
-            </Col>
-            <Col md={3} lg={3} xl={2} className="mx-auto mb-md-0 ">
-              <h6 className={`text-uppercase fw-bold ${styles.title_margin}`}>
-                {" "}
-                {t("terms_and_conditions")}
-              </h6>
-              <div className={styles.content_footer_margin}>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("terms_and_conditions")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="/privacy" className="text-white text-decoration-none">
-                    {t("privacy_policy")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("US_privacy_laws")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("children_privacy_policy")}
-                  </a>
-                </p>
-                <p className={styles.item_margin}>
-                  <a href="#!" className="text-white text-decoration-none">
-                    {t("inclusion_and_accessibility_policy")}
-                  </a>
-                </p>
+                </div>
               </div>
             </Col>
           </Row>
+          <p className={styles.copyright}>
+            Copyright @{new Date().getFullYear()}, Anki All rights reserved.
+          </p>
         </section>
       </Container>
     </footer>

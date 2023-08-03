@@ -4,7 +4,7 @@ import styles from "@/assets/styles/cardBlog.module.scss";
 import moment from "moment";
 import { convert } from "html-to-text";
 
-function CardBlog(item: any) {
+function CardBlog(item: any, ) {
   const options = {
     wordwrap: 130,
   };

@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import BlogsScreen from "@/screens/Blogs";
 import { useLocale } from "next-intl";
+import { convert } from "html-to-text";
 
 export async function generateMetadata() {
   const locale = useLocale();

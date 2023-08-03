@@ -52,6 +52,9 @@
     "children_privacy_policy": "Children’s Privacy Policy",
     "inclusion_and_accessibility_policy": "Inclusion and Accessibility policy"
   },
+  "Blogs": {
+    "new_blogs": "Latest posts"
+  },
   "Header": {
     "blogs": "Blogs",
     "privacy_policy": "Privacy"

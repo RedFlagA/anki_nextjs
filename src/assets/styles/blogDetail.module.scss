@@ -1,9 +1,33 @@
+.container {
+  figure {
+    img {
+      width: 100% !important;
+      max-height: 500px;
+      object-fit: cover;
+    }
+  }
+  .new_blogs{
+    padding: 28px 0;
+  }
+}
 @media (max-width: 700px) {
   .container {
     figure {
       img {
         width: 100% !important;
         height: 250px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+@media (min-width: 701px) and (max-width: 1120px) {
+  .container {
+    figure {
+      img {
+        width: 100% !important;
+        height: 400px;
+        object-fit: cover;
       }
     }
   }

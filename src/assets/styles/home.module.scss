@@ -65,6 +65,12 @@
     margin-right: 10px;
   }
 
+  .icon_google_play{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+
   //who is anki
   .viewWhoIs {
     width: 100%;
@@ -92,7 +98,7 @@
   .line {
     background-color: #3cc5ff;
     width: 116px;
-    height: 8px;
+    height: 5px;
     margin: auto;
     margin-bottom: 40px;
   }
@@ -163,6 +169,14 @@
     }
     .viewWhoIs, .whyIsAnki{
       padding-bottom: 40px;
+    }
+    .viewBlogs {
+      .viewBtn {
+        .view_more {
+          font-size: 20px;
+          padding: 0;
+        }
+      }
     }
   }
   @media (min-width: 701px) and (max-width: 1120px) {

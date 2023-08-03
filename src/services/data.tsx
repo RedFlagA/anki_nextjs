@@ -1,4 +1,4 @@
-export async function getDataHome(page: number) {
+export async function getBlogsLimit(page: number) {
   const res = await fetch(
     `https://wp.anki.edu.vn/wp-json/wp/v2/posts?per_page=${page}`,
     { cache: "no-store", next: { revalidate: 0 } }
