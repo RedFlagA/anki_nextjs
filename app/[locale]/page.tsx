@@ -8,6 +8,7 @@ export async function generateMetadata() {
   const locale = useLocale();
   const headersList = headers();
   const domain = headersList.get("host") || "";
+  console.log("🚀 ~ file: page.tsx:11 ~ generateMetadata ~ domain:", domain)
   return {
     title: locale === 'en' ? 'Home' : 'Trang chủ',
     description: locale === 'en' ? 'Learn everything quickly with the Anki' : 'Học mọi thứ nhanh chóng với Anki',
