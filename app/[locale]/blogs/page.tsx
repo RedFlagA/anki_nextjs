@@ -4,7 +4,7 @@ import { useLocale } from "next-intl";
 
 export async function generateMetadata() {
   const locale = useLocale();
-  const metadataBase: any = new URL(process.env.BASE_URL);
+  const metadataBase: any = new URL(process.env.BASE_URL!);
   console.log("🚀 ~ file: page.tsx:8 ~ generateMetadata ~ metadataBase:", metadataBase)
   return {
     title: locale === 'en' ? 'Blogs' : 'Bài viết',
