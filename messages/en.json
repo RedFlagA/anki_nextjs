@@ -50,46 +50,15 @@
     "privacy_policy": "Privacy Policy",
     "US_privacy_laws": "US Privacy Laws",
     "children_privacy_policy": "Children’s Privacy Policy",
-    "inclusion_and_accessibility_policy": "Inclusion and Accessibility policy"
+    "inclusion_and_accessibility_policy": "Inclusion and Accessibility policy",
+    "terms_of_service": "Terms of Service"
   },
   "Blogs": {
     "new_blogs": "Latest posts"
   },
   "Header": {
     "blogs": "Blogs",
-    "privacy_policy": "Privacy"
-  },
-  "Privacy": {
-    "terms_and_conditions": "Terms and Conditions of Use for ANKI",
-    "term_des": "Please take a moment to familiarize yourself with our Privacy Policy and let us know if you have any questions.",
-    "introduce": "Introduction",
-    "des_introduce": "This Privacy Policy describes the rules regarding privacy that we, ANKI, use concerning the collection, use, and disclosure of both personal and non-personal information we receive when you use our Services. By using the Services, you agree to the rules described in this Privacy Policy. IF YOU DO NOT AGREE TO ANY OF THE TERMS EXPLAINED IN THIS PRIVACY POLICY, PLEASE DO NOT ACCESS, BROWSE, OR USE ANKI'S SERVICES. We are committed to protecting all information collected through the Services. This Privacy Policy aims to inform you about our policies and procedures regarding the collection, use, and disclosure of information on our Services. We also want to inform you about your options concerning the information you share with us. If you have any questions or concerns, please let us know (see the section on How to Contact Us below). Our terms and conditions may be modified or supplemented as needed, except when we set limits on the effective time of that term. Continuing to access or use ANKI implies that you accept the modified or supplemented terms.",
-    "collect_information": "I. How We Collect Information",
-    "user_info": "1. Personal Information",
-    "user_info1": "- The personal data that ANKI may collect includes:",
-    "user_info2": "- Full name",
-    "user_info3": "- Email address",
-    "user_info4": "- Profile pictures",
-    "non_personal_information": "2. Non-Personal Information",
-    "non_personal_information_des": "We may collect other non-identifying information (meaning non-personal information) such as statistical data generated when you use a specific service, for example, user activity (including clicks, page navigation, and browsing time). This information is collected to improve the services we provide to you. The type and amount of information collected will depend on how you use our products and/or services. We aggregate this information to help us provide more useful information to customers and better understand the parts of our website, products, and services that customers are most interested in. Aggregated data is considered non-personal information for the purposes of this Privacy Policy.",
-    "cookies": "* Cookies and Session:",
-    "cookies_des": "Cookies and sessions refer to data information related to connections and services that you provide to us when you use an application, service, or website, including, but not limited to when you use our applications, services, or websites. Cookies and sessions available include information related to connection requests, server communications, and data sharing, including network checks, service quality, date, time, and location. In addition to the information described below, we may also collect cookies and sessions. Please note that cookies and sessions do not include any personal information or any content that you may use in applications (such as photos, memory, camera, etc.), services, or websites for sending or sharing.",
-    "user_behavior_analysis": "* User Behavior Analysis:",
-    "user_behavior_analysis_des": "We may use Google Analytics and Google Firebase to collect information about the use of the Service. Google Analytics and Google Firebase collect information such as the frequency of user access to the Service, their activities when accessing the Service, and their location when they log into the Service. We only collect aggregated information through Google Analytics and Firebase Analytics for marketing event deployment and providing appropriate services to users in specific territories.",
-    "user_feedback": "* User Feedback:",
-    "user_feedback_des": "We may collect feedback from you about the issues you report to us, feedback logs, and any email addresses you provide to us. This information will be used to help us better understand any issues you encounter and to allow us to contact you.",
-    "use_infomation_collect": "II. How We Use Collected Information",
-    "use_infomation_collect_user_info": "1. Personal Information",
-    "use_infomation_collect_user_info_des": "We may use your personal information for the following purposes:\n- Identify, verify, and recognize which customers are accessing and using our services.\n- Contact you via email for administrative purposes or to enhance your relationship with us or your use of our Services.\n- Allow other users to interact with or see some of your activities on the Platform, including notifying you when another user invites you to participate in an event on the Platform.\n- Research, analyze, and develop (including, but not limited to data analysis, surveys, development and/or characteristics of products and services), to analyze how you use our Services, to improve our Services or products, and/or to improve the customer experience.",
-    "use_infomation_collect_non_user_info": "2. Non-Personal Information",
-    "use_infomation_collect_non_user_info_des": "We may use Non-Personal Information for the following purposes:\n- For personalized user experiences – We may use Non-Personal Information to understand your user characteristics and other user-related trends.\n- To further develop ANKI applications – We may use Non-Personal Information for development and market promotion purposes.",
-    "protect": "III. Protection",
-    "protect_des": "We value your trust in providing us with your information; therefore, we are making every effort to use commercially acceptable means to protect that information. However, please remember that no method of transmission over the Internet or electronic storage is 100% secure and reliable, and we cannot guarantee absolute security.",
-    "your_benefits": "IV. Your Benefits",
-    "your_benefits_des": "Control Settings: We recognize that each individual's privacy concerns are different. Therefore, we provide examples of how ANKI provides you with options to limit the collection, use, and control your privacy settings: access rights on your phone, decide whether to use our services when updating the Privacy Policy or not. We may modify or update this privacy policy as needed. Therefore, you should check this page regularly for any changes. You may decide whether to continue using our services or not.",
-    "third_party_websites_and_services": "V. Third-Party Websites and Services",
-    "third_party_websites_and_services_des": "Our privacy policy does not apply to products or services provided by third parties. ANKI may include, depending on the product you use, third-party products or services, such as scheduling services on Google Calendar. Some products or services may be provided in the form of links to third-party websites, while others may be in the form of SDKs, APIs, etc. Third parties may collect information from you when you use those products or services. For this reason, we strongly recommend that you read the privacy policy of third parties just as you have taken the time to read our policy. We are not responsible and cannot control how third parties use the personal information they collect from you. Our privacy policy does not apply to other websites linked through our services.",
-    "contact_us": "VI. Contact Us",
-    "contact_us_des": "If you have any questions or feedback about this Privacy Policy or if you have any questions about how we collect and use your information, please contact us by emailing support@anki.edu.vn and mention that your communication is related to 'Privacy Policy.' Our feedback team will be able to handle any requests for rights or questions about your information. If you have a particularly serious issue that needs to be resolved, we may ask you to provide additional information to resolve it."
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service"
   }
 }

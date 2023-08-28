@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import styles from "@/assets/styles/footer.module.scss";
 import { useTranslations } from "next-intl";
 
@@ -27,6 +27,13 @@ function Footer() {
                 <a href="/privacy" className="text-white text-decoration-none">
                   {t("privacy_policy")}
                 </a>
+                <br />
+                <a
+                  href="/terms-of-service"
+                  className="text-white text-decoration-none"
+                >
+                  {t("terms_of_service")}
+                </a>
               </p>
             </Col>
             <Col md={4} lg={4} xl={4} className="mx-auto">
@@ -37,8 +44,9 @@ function Footer() {
                 className={`d-flex justify-content-center ${styles.view_download}`}
               >
                 <div className={`${styles.template_demo} mt-2`}>
-                  <button
+                  <Button
                     className={`${styles.btn_change_style} ${styles.margin_right} btn btn-dark btn-icon-text`}
+                    onClick={() => window.open("https://apps.apple.com/vn/app/anki-flashcards-new/id6451835020")}
                   >
                     <div className="d-flex align-items-center justify-content-center">
                       <i className={`bi bi-apple ${styles.icon_store}`}></i>
@@ -53,9 +61,10 @@ function Footer() {
                         App Store
                       </span>
                     </div>
-                  </button>
-                  <button
+                  </Button>
+                  <Button
                     className={`${styles.btn_change_style} ${styles.margin_right} ${styles.style_devices} btn btn-dark btn-icon-text`}
+                    onClick={() => window.open("https://play.google.com/store/apps/details?id=vn.edu.anki.flashcard")}
                   >
                     <div className="d-flex align-items-center justify-content-center">
                       <Image
@@ -74,7 +83,7 @@ function Footer() {
                         Google Play
                       </span>
                     </div>
-                  </button>
+                  </Button>
                 </div>
               </div>
             </Col>

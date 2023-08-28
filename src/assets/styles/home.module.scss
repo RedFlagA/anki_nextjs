@@ -191,4 +191,15 @@
       font-size: 16px;
     }
   }
+
+  @media (max-width: 375px) {
+    padding: 0 !important;
+    .btn_change_style {
+      width: 140px;
+      padding: 0 5px !important;
+    }
+    .text_store {
+      font-size: 16px;
+    }
+  }
 }

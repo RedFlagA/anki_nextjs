@@ -27,6 +27,9 @@ export default function Header() {
               <Nav.Link href="/privacy" active className={styles.menu_title}>
                 {t("privacy_policy")}
               </Nav.Link>
+              <Nav.Link href="/terms-of-service" active className={styles.menu_title}>
+                {t("terms_of_service")}
+              </Nav.Link>
               <NavDropdown
                 title={locale === 'vi' ? 'VN': 'EN'}
                 id="language-dropdown"

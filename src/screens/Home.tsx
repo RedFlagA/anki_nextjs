@@ -27,8 +27,9 @@ export default async function Home() {
             <h5 className={styles.download_text}> {t("download_app")}</h5>
             <div className="row container d-flex justify-content-center">
               <div className={`${styles.template_demo} mt-2`}>
-                <button
+                <Button
                   className={`${styles.btn_change_style} ${styles.margin_right} btn btn-dark btn-icon-text`}
+                  onClick={() => window.open("https://apps.apple.com/vn/app/anki-flashcards-new/id6451835020")}
                 >
                   <div className="d-flex align-items-center justify-content-center">
                     <i className={`bi bi-apple ${styles.icon_store}`}></i>
@@ -43,9 +44,10 @@ export default async function Home() {
                       App Store
                     </span>
                   </div>
-                </button>
-                <button
+                </Button>
+                <Button
                   className={`${styles.btn_change_style} ${styles.margin_right} btn btn-dark btn-icon-text`}
+                  onClick={() => window.open("https://play.google.com/store/apps/details?id=vn.edu.anki.flashcard")}
                 >
                   <div className="d-flex align-items-center justify-content-center">
                     <Image
@@ -64,7 +66,7 @@ export default async function Home() {
                       Google Play
                     </span>
                   </div>
-                </button>
+                </Button>
               </div>
             </div>
           </Col>
